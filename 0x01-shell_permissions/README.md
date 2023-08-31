@@ -1,1 +1,2 @@
 su betty switches the current user to user betty
+whoami is a script that prints the effective username of the current user
