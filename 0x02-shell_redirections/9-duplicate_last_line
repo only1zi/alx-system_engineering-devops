@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -D 1 iacta
+head -n 3 | uniq -D 1 iacta
