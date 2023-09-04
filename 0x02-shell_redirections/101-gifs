@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -iname '*.gif' -exec bash -c 'for file do printf "%s\n" "${file%.*}"; done' bash {} +
